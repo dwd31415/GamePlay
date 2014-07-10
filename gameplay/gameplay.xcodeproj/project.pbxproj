@@ -597,6 +597,8 @@
 		BD2636E816CF5B7400CFE15F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2636E216CF5B7400CFE15F /* OpenGLES.framework */; };
 		BD2636E916CF5B7400CFE15F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2636E316CF5B7400CFE15F /* QuartzCore.framework */; };
 		BD2636EA16CF5B7400CFE15F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2636E416CF5B7400CFE15F /* UIKit.framework */; };
+		E1FFE1CE196ED4590074F18B /* GameComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FFE1CD196ED4590074F18B /* GameComponent.cpp */; };
+		E1FFE1CF196ED4590074F18B /* GameComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1FFE1CD196ED4590074F18B /* GameComponent.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1224,6 +1226,8 @@
 		BD2636E216CF5B7400CFE15F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		BD2636E316CF5B7400CFE15F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		BD2636E416CF5B7400CFE15F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E1FFE1CB196ED07C0074F18B /* GameComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameComponent.h; path = src/GameComponent.h; sourceTree = SOURCE_ROOT; };
+		E1FFE1CD196ED4590074F18B /* GameComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameComponent.cpp; path = src/GameComponent.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1886,6 +1890,8 @@
 				42CC55661809A4EE00AAD8AD /* VertexFormat.h */,
 				42CC55671809A4EE00AAD8AD /* VerticalLayout.cpp */,
 				42CC55681809A4EE00AAD8AD /* VerticalLayout.h */,
+				E1FFE1CB196ED07C0074F18B /* GameComponent.h */,
+				E1FFE1CD196ED4590074F18B /* GameComponent.cpp */,
 			);
 			name = src;
 			path = gameplay;
@@ -2181,6 +2187,7 @@
 				420BBCAA1817416F00C7B720 /* lua_CurveInterpolationType.cpp in Sources */,
 				420BBD161817416F00C7B720 /* lua_Joint.cpp in Sources */,
 				420BBCCE1817416F00C7B720 /* lua_FontStyle.cpp in Sources */,
+				E1FFE1CE196ED4590074F18B /* GameComponent.cpp in Sources */,
 				420BBE8A1817416F00C7B720 /* lua_TextureSampler.cpp in Sources */,
 				420BBE5E1817416F00C7B720 /* lua_Slider.cpp in Sources */,
 				420BBDD61817416F00C7B720 /* lua_PhysicsGhostObject.cpp in Sources */,
@@ -2476,6 +2483,7 @@
 				420BBCAB1817416F00C7B720 /* lua_CurveInterpolationType.cpp in Sources */,
 				42CC55EB1809A4EF00AAD8AD /* FrameBuffer.cpp in Sources */,
 				420BBD171817416F00C7B720 /* lua_Joint.cpp in Sources */,
+				E1FFE1CF196ED4590074F18B /* GameComponent.cpp in Sources */,
 				42CC59571809A4EF00AAD8AD /* PhysicsRigidBody.cpp in Sources */,
 				420BBCCF1817416F00C7B720 /* lua_FontStyle.cpp in Sources */,
 				420BBE8B1817416F00C7B720 /* lua_TextureSampler.cpp in Sources */,

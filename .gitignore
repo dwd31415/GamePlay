@@ -55,6 +55,10 @@ gameplay.xcworkspace/xcshareddata/gameplay.xccheckout
 /gameplay/gameplay.xcodeproj/xcuserdata
 /gameplay/CMakeFiles
 CMakeFiles
+*.cmake
+CMakeCach.*
+Makefile
+*.a
 
 /tools/gameplay-encoder/Debug
 /tools/gameplay-encoder/Release
