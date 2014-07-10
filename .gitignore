@@ -3,6 +3,7 @@
 *.opensdf
 *.layout
 *.depend
+*.o
 .DS_Store*
 ehthumbs.db
 Icon?
@@ -52,6 +53,8 @@ gameplay.xcworkspace/xcshareddata/gameplay.xccheckout
 /gameplay/android/obj
 /gameplay.xcworkspace/xcuserdata
 /gameplay/gameplay.xcodeproj/xcuserdata
+/gameplay/CMakeFiles
+CMakeFiles
 
 /tools/gameplay-encoder/Debug
 /tools/gameplay-encoder/Release
@@ -119,6 +122,7 @@ gameplay.xcworkspace/xcshareddata/gameplay.xccheckout
 /samples/character/android/NUL
 /samples/character/res/gamepad.xcf
 /samples/character/sample-character.xcodeproj/xcuserdata
+/samples/CMakeFiles
 
 /samples/lua/Debug
 /samples/lua/DebugMem

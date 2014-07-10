@@ -108,3 +108,7 @@
 #include "AbsoluteLayout.h"
 #include "VerticalLayout.h"
 #include "FlowLayout.h"
+
+
+//Engine
+#include "GameComponent.h"
